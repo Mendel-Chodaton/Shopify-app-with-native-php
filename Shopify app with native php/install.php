@@ -2,9 +2,9 @@
 
 // Set variables for our request
 $shop = $_GET['shop'];
-$api_key = "fed84fb1de3ac093a881476c9a20f5de";
+$api_key = "YOUR_SHOPIFY_API_KEY";
 $scopes = "read_products,write_products,read_discounts,write_discounts,read_price_rules,write_price_rules";
-$redirect_uri = "https://comboapp.arunas.tk/generate_token.php";
+$redirect_uri = "...PATH_TO/generate_token.php";
 
         $sql = "SELECT * FROM shops WHERE shop_url='".$_GET['shop'] . "' LIMIT 1";
         $check = mysqli_query( $conn, $sql );
