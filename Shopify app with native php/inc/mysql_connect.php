@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
-$username = "comboapp_db";
-$password = "DLl7gufjeD6A";
-$database = "comboapp_db";
+$username = "USERNAME";
+$password = "DATABASE_PASSWORD";
+$database = "DATABASE_NAME";
 
 $conn = mysqli_connect($host, $username, $password, $database);
 if(!$conn) {
