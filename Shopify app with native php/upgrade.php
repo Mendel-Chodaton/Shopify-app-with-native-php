@@ -30,7 +30,7 @@ $recurring_array = array(
   "name" => "App charge", 
   "price" => 9.9,
   "test" => true,
-  "return_url" => "https://" . $shop_url . "/admin/apps/ordyinx/?"
+  "return_url" => "https://" . $shop_url . "/admin/apps/YOUR_SHOPIFY_APP_NAME/?"
    )
 );
 
