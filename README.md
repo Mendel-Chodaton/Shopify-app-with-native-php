@@ -14,6 +14,8 @@ You've installed a Node.js package manager: either npm, Yarn 1.x, or pnpm.
 You've installed Git.
 
 You're using the latest version of Chrome or Firefox.
+
+
 https://shopify.dev/apps/getting-started/create#:~:text=You%27ve%20created%20a,Chrome%20or%20Firefox.
 
 # HOW TO USE IT ?
