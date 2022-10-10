@@ -40,7 +40,7 @@ if(mysqli_num_rows($check) < 1) {
 
 
 <?php
-define('DOMAIN_URL_PROJECT_PATH', 'https://comboapp.arunas.tk/');
+define('DOMAIN_URL_PROJECT_PATH', 'https://PATH_TO/');
 
 $array = array(
   'webhook' => array(
@@ -58,7 +58,7 @@ $webhook = json_decode( $webhook['response'], JSON_PRETTY_PRINT);
 
 
 <?php
-define('DOMAIN_URL_PROJECT_PATH', 'https://comboapp.arunas.tk/');
+define('DOMAIN_URL_PROJECT_PATH', 'https://PATH_TO/');
 
 $arrayu = array(
   'webhook' => array(
@@ -79,7 +79,7 @@ $webhook = json_decode( $webhook['response'], JSON_PRETTY_PRINT);
 
 
 <?php
-define('DOMAIN_URL_PROJECT_PATH', 'https://comboapp.arunas.tk/');
+define('DOMAIN_URL_PROJECT_PATH', 'https://PATH_TO/');
 
 $arrayv = array(
   'webhook' => array(
