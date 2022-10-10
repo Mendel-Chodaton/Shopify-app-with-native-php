@@ -51,7 +51,7 @@ $array = array(
 );
 
 $webhook = shopify_call($token, $shop_url, "/admin/api/2022-04/webhooks.json", $array, 'POST');
-$webhook = json_decode( $webhook['response'], JSON_PRETTY_PRINT);
+$webhook = json_decode( $webhook['response'], JSON_PRETTY_PRINT); 
 
 ?>
 
