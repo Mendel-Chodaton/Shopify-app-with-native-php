@@ -1,0 +1,24 @@
+
+th, td{
+text-align:center;
+white-space:normal;
+min-width:8px;
+}
+table table-bordered my-5
+{
+border-collapse:collapse;
+border:2px solid black;
+margin:auto;
+white-space:normal;
+min-width:8px;
+}
+table a
+{
+text-decoration:none;
+}
+th, td
+{
+
+border:1px solid black;
+padding: 5px;
+}
