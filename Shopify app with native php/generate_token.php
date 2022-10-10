@@ -5,8 +5,8 @@ require_once("inc/functions.php");
 require_once("inc/mysql_connect.php");
 
 // Set variables for our request
-$api_key = "fed84fb1de3ac093a881476c9a20f5de";
-$shared_secret = "fa011f06990cb67830d8a3c449deb568";
+$api_key = "YOUR_SHOPIFY_API_KEY";
+$shared_secret = "YOUR_SHOPIFY_SECRET_KEY";
 $params = $_GET; // Retrieve all request parameters
 $hmac = $_GET['hmac']; // Retrieve HMAC request parameter
 $shop_url = $params['shop'];
@@ -54,7 +54,7 @@ $sql = "INSERT INTO shops (shop_url, access_token, install_date) VALUES ('" . $p
   
 if(mysqli_query($conn, $sql)) {
 
-
+// code for charge merchants : change test to false when you launch the app
 if( !isset( $_GET['charge_id']) ) {
 
 $recurring_array = array(
