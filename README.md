@@ -3,6 +3,19 @@ In this template i use native php to create a shopify app exemple that use yhe p
 
 # REQUIREMENT
 
+You've created a Partner account and a development store.
+
+You've created a app on your shopify partner
+
+You've installed Node.js 14.13.1 or higher.
+
+You've installed a Node.js package manager: either npm, Yarn 1.x, or pnpm.
+
+You've installed Git.
+
+You're using the latest version of Chrome or Firefox.
+https://shopify.dev/apps/getting-started/create#:~:text=You%27ve%20created%20a,Chrome%20or%20Firefox.
+
 # HOW TO USE IT ?
 
 Before all Donwload the repository by downloading in zip file or unse git cli to clone 
