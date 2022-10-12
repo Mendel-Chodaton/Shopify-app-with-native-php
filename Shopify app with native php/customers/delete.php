@@ -4,7 +4,7 @@ include_once("inc/functions.php");
  
 
 
-define('SHOPIFY_APP_SECRET_KEY', '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');
+define('SHOPIFY_APP_SECRET_KEY', 'YOUR_SHOPIFY_SECRET_KEY');
 
 function verify_request($data, $my_hmac)
 {
