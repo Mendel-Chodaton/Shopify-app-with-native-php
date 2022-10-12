@@ -1,6 +1,6 @@
 <?php
 
-define('SHOPIFY_APP_SECRET', '608f337217bcc0905d7e8095354c753d');
+define('SHOPIFY_APP_SECRET', 'YOUR_SHOPIFY_SECRET_KEY');
 
 function verify_webhook($data, $hmac_header)
 {
