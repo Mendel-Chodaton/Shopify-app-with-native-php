@@ -1,5 +1,5 @@
 <?php
-define('SHOPIFY_APP_SECRET_KEY', 'fa011f06990cb67830d8a3c449deb568');
+define('SHOPIFY_APP_SECRET_KEY', 'YOUR_SHOPIFY_SECRET_KEY');
 
 function verify_request($data, $hmac)
 {
